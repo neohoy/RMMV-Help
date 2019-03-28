@@ -5,7 +5,7 @@
 
 #### GENE帮助文件https://neohoy.github.io/RMMV-Help/RMMV-GENE/index.html
 
-#### MADO帮助文件https://neohoy.github.io/RMMV-Help/MADO/index.html
+#### MADO帮助文件https://neohoy.github.io/RMMV-Help/RMMV-MADO/index.html
 
 #### SAKAN帮助文件https://neohoy.github.io/RMMV-Help/RMMV-SAKAN/index.html
 
