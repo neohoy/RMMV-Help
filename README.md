@@ -1,1 +1,2 @@
-# RMMV-Scene-Builder
+# RMMV中文化计划
+随着RMMV更新，将重新整理原有帮助文件，并梳理最新的工具的汉化教程
