@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Starting to Create Scenes</title>
+	<title>创建场景</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -11,16 +11,16 @@
 
 	<div class="main">
 
-		<h1 class="main__title--h1 main__title--h1--v01">Starting to Create Scenes</h1>
+		<h1 class="main__title--h1 main__title--h1--v01">创建场景</h1>
 		<ul class="breadcrumb">
-			<li><a href="01.html"> Scene Builder</a></li>
+			<li><a href="01.html"> 场景编辑器</a></li>
 			<li>&gt;</li>
-			<li> Starting to Create Scenes</li>
+			<li> 创建场景</li>
 		</ul>
 
 		<div class="main__section">
-			<h2 class="main__title--h2">Specify MV Project</h2>
-			<p>An MV project needs to be open before creating a scene using this software. Click [File] → [Open Project], and specify a [Game.rpgproject] file in the MV game folder.
+			<h2 class="main__title--h2">指定MV项目</h2>
+			<p>在使用该软件创建场景之前，需要打开一个MV项目。单击[文件]→[打开项目]，并在mv game文件夹中指定一个[game.rpgproject]文件。
 			</p>
 			<div class="al-c mb20px">
 				<img src="../inc/img/01_02_img01.png" alt="" width="409" height="156" />
@@ -30,73 +30,73 @@
 
 
 		<div class="main__section">
-			<h2 class="main__title--h2"> Scene Creation Procedure</h2>
-			<p>Newly created projects will not have pictures.<br />
-				Place the pictures to use in the img/pictures folder.<br />
-				* This time, copy the pictures in the img/parallaxes/ folder to the img/pictures folder.</p>
+			<h2 class="main__title--h2"> 场景创建过程</h2>
+			<p>新创建的项目将没有图片。<br />
+				将要使用的图片放入img/pictures文件夹。<br />
+				*这次，将img/parallaxes/文件夹中的图片复制到img/pictures文件夹。</p>
 			<dl class="main__dl">
-				<dt>(1) Add a picture display event</dt>
+				<dt>（1）添加图片显示事件</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img02.png" alt="" width="700" height="300" />
 					</div>
-					Press the [Show Picture Event] button to insert a picture display event into the timeline.<br />
-					The event will be added with a starting point at the position of the cursor in the timeline.<br />
-					The cursor can be moved by dragging or clicking.
+					按[显示图片事件]按钮将图片显示事件插入时间线。<br />
+					事件将添加到时间线中光标位置的起始点。<br />
+					可以通过拖动或单击来移动光标。
 				</dd>
-				<dt>(2) Settings for Added Show Picture Event</dt>
+				<dt>（2）添加显示图片事件的设置</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img03.png" alt="" width="700" height="300" />
 					</div>
-					Clicking on a Show Picture Event once added to the timeline will display its picture setting properties in the property area.<br />
-					Click on the [Image] for the [Picture] to select the image that will be displayed in the event.
-					* You can select an image from the img/pictures folder.
+					单击添加到时间线上的“显示图片”事件将在属性区域中显示其图片设置属性。<br />
+					单击[图片]的[图片]选择将在事件中显示的图片。
+					*您可以从img/pictures文件夹中选择图像。
 				</dd>
-				<dt>(3) Adding a New Lane</dt>
+				<dt>（3）新建行</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img04.png" alt="" width="700" height="300" />
 					</div>
-					Click the ""Add New Lane"" button to add a new row.
+					单击“添加新行”按钮添加新行。
 				</dd>
-				<dt>(4) Adding a Show Text Event</dt>
+				<dt>（4）添加显示文本事件。</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img05.png" alt="" width="700" height="300" />
 					</div>
-					Select the added row and drag the cursor to where Show Text Event beings. Click the [Show Text Event] button, and the Show Text Event will be inserted into the row you added.
+					选择添加的行并将光标拖动到显示文本事件存在的位置。单击[显示文本事件]按钮，显示文本事件将插入到您添加的行中。
 				</dd>
-				<dt>(5) Editing a Show Text Event</dt>
+				<dt>（5）编辑显示文本事件</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img06.png" alt="" width="700" height="300" />
 					</div>
-					Click the Show Text Event added to the timeline to select it, and its text setting properties will be displayed in the property area.<br />
+					单击添加到时间线上的“显示文本”事件进行选择，其文本设置属性将显示在属性区域中。<br />
 				</dd>
-				<dt>(6) Preview</dt>
+				<dt>（6）预览</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img07.png" alt="" width="700" height="300" />
 					</div>
-					 [Click the [Playback] button to see the event as it currently is in the preview area. Playback will begin from the cursor's position, so be sure to drag the cursor to the desired position.<br />
-					Press the [Stop] button to end playback and enable other buttons.
+					[单击[播放]按钮以查看事件当前在预览区域中的状态。播放将从光标的位置开始，因此请确保将光标拖动到所需的位置。<br />
+					按[停止]按钮结束播放并启用其他按钮。
 				</dd>
-				<dt>(7) Copy a Timeline as an Event</dt>
+				<dt>（7）将时间线复制为事件</dt>
 				<dd>
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img08.png" alt="" width="700" height="300" />
 					</div>
-					Click the [Copy AS Event] button to copy the timeline. The timeline will be copied to the clipboard as an event for RPG Maker MV.
+					单击[复制为事件]按钮复制时间线。时间线将作为RPG Maker MV的事件复制到剪贴板。
 				</dd>
-				<dt>(8) Paste in MV</dt>
+				<dt>（8）复制事件至MV</dt>
 				<dd>
-					By [Pasting] in the MV Event Screen, the contents of the event created in Scene Builder will be displayed.<br />
+					通过在mv事件屏幕中[粘贴]，将显示在场景生成器中创建的事件的内容。<br />
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img09.png" alt="" width="700" height="300" />
 						<img src="../inc/img/01_02_img10.png" alt="" width="700" height="300" />
 					</div>
-					Make sure to preview events in MV.
+					确保在mv中可以正确预览事件。
 					<div class="al-c mb10px">
 						<img src="../inc/img/01_02_img11.png" alt="" width="833" height="663" />
 					</div>
