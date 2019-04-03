@@ -57,175 +57,174 @@
 						设置图片旋转的速率。
 					</dd>
 				</dl>
-				<h3 class="main__title--h3">组合</h3>
-				<p>Set picture's start time combination.</p>
+				<h3 class="main__title--h3">开始混合</h3>
+				<p>设置图片的开始时间组合。</p>
 				<dl class="main__dl">
-					<dt>Opacity</dt>
+					<dt>不透明度</dt>
 					<dd>
-						Configure the opacity of the picture.
+						配置图片的不透明度。
 					</dd>
-					<dt>Blend Mode</dt>
+					<dt>混合模式</dt>
 					<dd>
-						Specify the combination method for overlapping pictures.
-					</dd>
-				</dl>
-				<h3 class="main__title--h3">End Position</h3>
-				<p>Set the position of the picture's display at its ending time.</p>
-				<dl class="main__dl">
-					<dt>X: Y: Width: Height:</dt>
-					<dd>
-						Set the picture's position and size.
+						指定重叠图片的组合方法。
 					</dd>
 				</dl>
-
-				<h3 class="main__title--h3">End Blend</h3>
-				<p>Set the combination method for the picture's display at its ending time.</p>
+				<h3 class="main__title--h3">结束位置</h3>
+				<p>设置图片显示在结束时间的位置。</p>
 				<dl class="main__dl">
-					<dt>Opacity</dt>
+					<dt>X:Y:宽度：高度：</dt>
 					<dd>
-						Configure the opacity of the picture.
+						设置图片的位置和大小。
 					</dd>
 				</dl>
 
-				<h3 class="main__title--h3">Color Tone</h3>
-				<p>Set the color tone of the picture's display at its ending time.</p>
+				<h3 class="main__title--h3">结束混合</h3>
+				<p>设置图片结束时的显示组合方法。</p>
+				<dl class="main__dl">
+					<dt>不透明性</dt>
+					<dd>
+						配置图片的不透明度。
+					</dd>
+				</dl>
+
+				<h3 class="main__title--h3">色调</h3>
+				<p>设置图片结束时显示的色调。</p>
 
 
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p02">
-				<h2 class="main__title--h2">Show Text Event</h2>
-				<p>The length of a Show Text Event cannot be set. Also, you cannot display more than one text item during the same frame. In the case that more than one is set to the same frame, the lower one will take priority.</p>
+				<h2 class="main__title--h2">显示文本事件</h2>
+				<p>无法设置显示文本事件的长度。此外，在同一帧中不能显示多个文本项。如果多个帧设置为同一帧，则较低的帧将优先。</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img02.png" width="498" height="345" alt="" />
 				</div>
 
-				<h3 class="main__title--h3">Message</h3>
+				<h3 class="main__title--h3">消息</h3>
 				<dl class="main__dl">
-					<dt>Face</dt>
+					<dt>脸图</dt>
 					<dd>
-						Set the face image to be displayed within the text window.
+						设置要在文本窗口中显示的脸图。
 					</dd>
-					<dt>Text</dt>
+					<dt>文本</dt>
 					<dd>
-						Input the text to be displayed during the event. More than four lines of text will be continued in a subsequent event.
+						输入事件期间要显示的文本。在随后的事件中，将继续显示四行以上的文本。
 					</dd>
-					<dt>Background</dt>
+					<dt>背景</dt>
 					<dd>
-						Set the window's background.
+						设置窗口的背景。
 					</dd>
-					<dt>Window Position</dt>
+					<dt>窗口位置</dt>
 					<dd>
-						Set the window's position.
+						设置窗口位置。
 					</dd>
 				</dl>
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p03">
-				<h2 class="main__title--h2">Show Scrolling Text Event</h2>
-				<p>The length of a Show Scrolling Text Event cannot be set. Also, you cannot display more than one text item during the same frame. In the event that more than one is set to the same frame, the text on the lower row will take priority. All control characters can be used.</p>
+				<h2 class="main__title--h2">显示滚动文本事件</h2>
+				<p>无法设置显示滚动文本事件的长度。此外，在同一帧中不能显示多个文本项。如果将多个文本设置为同一帧，则下一行的文本将优先。可以使用所有控制字符。</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img03.png" width="498" height="287" alt="" />
 				</div>
 
-				<h3 class="main__title--h3">Scrolling Text</h3>
+				<h3 class="main__title--h3">滚动文本</h3>
 				<dl class="main__dl">
-					<dt>Text</dt>
+					<dt>文本</dt>
 					<dd>
-						Input the text to be scrolled over display.
+						输入要滚动显示的文本。
 					</dd>
-					<dt>Speed</dt>
+					<dt>速度</dt>
 					<dd>
-						Set the scroll speed.
+						设置滚动速度。
 					</dd>
-					<dt>No Fast Forwarding</dt>
+					<dt>无快进</dt>
 					<dd>
-						If this is checked, keys cannot be used to fast forward through the scrolling text.
+						如果选中此项，则不能使用按键在滚动文本中快进。
 					</dd>
 				</dl>
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p04">
-				<h2 class="main__title--h2">Fade Screen Event</h2>
-				<p>Set up a Fade Event. The length of a Fade Screen Event is fixed at 24 frames. It is necessary to perform a Fade Out before performing a Fade In.
-				Fade Type.</p>
+				<h2 class="main__title--h2">淡入淡出屏幕事件</h2>
+				<p>设置淡入淡出事件。淡入淡出屏幕事件的长度固定为24帧。在执行淡入之前必须执行淡出。</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img04.png" width="498" height="104" alt="" />
 				</div>
 
-				<h3 class="main__title--h3">Fade Type</h3>
+				<h3 class="main__title--h3">渐变类型</h3>
 				<dl class="main__dl">
-					<dt>Fade Type</dt>
+					<dt>渐变类型</dt>
 					<dd>
-						Set if the selected event is a Fade Out or a Fade In.
+						设置所选事件是淡出还是淡入。
 					</dd>
 				</dl>
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p05">
-				<h2 class="main__title--h2">Screen Event</h2>
-				<p>Add an event that has an effect on a picture. Select from the two types: Flash or Shake.</p>
+				<h2 class="main__title--h2">屏幕事件</h2>
+				<p>添加对图片有影响的事件。从两种类型中选择：闪光或震动。</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img05.png" width="498" height="318" alt="" />
 				</div>
 
-				<h3 class="main__title--h3">Flash Color</h3>
-				　<p>Checking this will cause a flash effect to occur. The tint and strength can be set.</p>
-				<h3 class="main__title--h3">Shake</h3>
-				　<p>Checking this will cause a shake event to occur. The strength and speed can be set.</p>
+				<h3 class="main__title--h3">闪光颜色</h3>
+				　<p>检查这将导致闪光效应发生。可以设置色调和强度。</p>
+				<h3 class="main__title--h3">震动</h3>
+				　<p>检查此项将导致发生震动事件。可以设置强度和速度。</p>
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p06">
-				<h2 class="main__title--h2">Audio Event</h2>
-				<p>Set up an Audio Event. The length of an Audio Event cannot be set. Also, multiple Audio Events cannot occur at the same time.</p>
+				<h2 class="main__title--h2">音频事件</h2>
+				<p>设置音频事件。无法设置音频事件的长度。此外，不能同时发生多个音频事件。</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img06.png" width="498" height="102" alt="" />
 				</div>
 
-				<h3 class="main__title--h3">Audio</h3>
+				<h3 class="main__title--h3">音频</h3>
 				<dl class="main__dl">
-					<dt>Audio Type</dt>
+					<dt>音频类型</dt>
 					<dd>
-						Select the type of audio.
+						选择音频类型。
 					</dd>
-					<dt>Audio</dt>
-						Select the sound source file.
+					<dt>音频</dt>
+						选择声源文件。
 					<dd>
 				</dl>
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p07">
-				<h2 class="main__title--h2">Fadeout Audio Event</h2>
-				<p>Add an Audio Fade-Out Effect. The fade-out time is set by the length of the frame.</p>
+				<h2 class="main__title--h2">淡出音频事件</h2>
+				<p>添加音频淡出效果。淡出时间由帧的长度设置。.</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img07.png" width="498" height="102" alt="" />
 				</div>
 
-				<h3 class="main__title--h3">Audio Type</h3>
+				<h3 class="main__title--h3">音频类型</h3>
 				<dl class="main__dl">
-					<dt>Audio Type</dt>
+					<dt>音频类型</dt>
 					<dd>
-						Specify the type of the fade-out audio.
+						指定淡出音频的类型。
 					</dd>
 				</dl>
 			</div><!-- /main__section -->
 
 
 			<div class="main__section" id="p08">
-				<h2 class="main__title--h2">Marker</h2>
-				<p>Set a marker on the timeline. Annotations can be added by clicking on a marker.</p>
+				<h2 class="main__title--h2">标记</h2>
+				<p>在时间线上设置一个标记。单击标记可以添加注释。</p>
 
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img09.png" width="498" height="191" alt="" />
@@ -234,8 +233,8 @@
 
 
 			<div class="main__section" id="p09">
-				<h2 class="main__title--h2">Preset</h2>
-				<p>A Preset is scene data that has been put together beforehand. When a Preset Scene uses images or audio materials, the files will be copied and overwritten into the project folder.</p>
+				<h2 class="main__title--h2">预设</h2>
+				<p>预设是预先放在一起的场景数据。当预设场景使用图像或音频材料时，文件将被复制并覆盖到项目文件夹中。</p>
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_04_img10.png" width="446" height="518" alt="" />
 				</div>
